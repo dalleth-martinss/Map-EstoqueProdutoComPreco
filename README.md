@@ -32,5 +32,5 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://opensour
 
 ---
 
-Desenvolvido por [E. Dálleth S. Martins](https://github.com/seu-usuario)
+Desenvolvido por [E. Dálleth S. Martins](https://github.com/dalleth-martinss)
 
