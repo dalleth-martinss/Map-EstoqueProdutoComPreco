@@ -26,10 +26,11 @@ public class EstoqueProdutos {
     }
     public Produto obterProdutoMaisCaro(){
         Produto produtoMaisCaro = null;
-        double maiorPreco = Double.MIN_VALUE;
+        double maiorPreco = Double.NEGATIVE_INFINITY;
         if(!estoqueProdutosaMap.isEmpty()){
             for(Produto p : estoqueProdutosaMap.values()){
                 if(p.getPreco() > maiorPreco){
+                    maiorPreco = p.getPreco();
                     produtoMaisCaro = p;
                 }
             }
